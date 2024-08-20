@@ -1,5 +1,5 @@
-# 2) Altere a solução do exercício anterior para que seja impressa a mensagem Valor inválido! caso o
-# segundo valor informado seja zero.
+# 4) Altere a solução do exercício 3 para que seja impressa a mensagem Valor inválido! caso o segundo
+# valor informado seja zero
 
 n1 = float(input("Escreva um número: "))
 cond = True
@@ -10,4 +10,5 @@ while cond:
         cond = False
     else:
         print("Valor inválido!")
-print(n1 / n2)
+
+print(n1 * n2)

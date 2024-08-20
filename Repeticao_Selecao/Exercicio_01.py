@@ -12,4 +12,4 @@ while cond:
     if n2 != 0:
         cond = False
 
-print(n1 * n2)
+print(n1 / n2)
