@@ -2,14 +2,14 @@
 
 import math
 
-r = float(input("Qual o valor do raio: "))
+raio = float(input("Qual o valor do raio: "))
 
 
-def areaCirculo():
+def areaCirculo(valorRaio):
 
     PI = math.pi
-    area = PI*(r*r)
+    area = PI*(valorRaio * valorRaio)
     return area
 
 
-print(f"A área do circulo é {areaCirculo():,.2f}")
+print(f"A área do circulo é {areaCirculo(raio):,.2f}")
