@@ -8,7 +8,7 @@ def escreverLista():
     tamanho = int(input("Qual o tamanho da lista qie você quer escrever: "))
     tamanho += 1
     for i in range(1, tamanho):
-        listaNumeros.append(int(input(f'Digite o {i}º valor: ')))
+        listaNumeros.append(float(input(f'Digite o {i}º valor: ')))
     return listaNumeros
 
 
