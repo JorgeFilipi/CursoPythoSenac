@@ -3,9 +3,6 @@
 
 # solução com logica para varios números
 
-# list = [5, 4, 3, 2, 1]
-
-
 def escreverLista():
     listaNumeros = []
     tamanho = int(input("Qual o tamanho da lista qie você quer escrever: "))
@@ -15,16 +12,16 @@ def escreverLista():
     return listaNumeros
 
 
-def ordenaLista(v):
-    fim = len(v)
-    while fim > 0:
+def ordenaLista(lista):
+    final = len(lista)
+    while final > 0:
         i = 0
-        while i < fim - 1:
-            if v[i] > v[i + 1]:
-                v[i], v[i + 1] = v[i + 1], v[i]
+        while i < final - 1:
+            if lista[i] > lista[i + 1]:
+                lista[i], lista[i + 1] = lista[i + 1], lista[i]
             i += 1
-        fim -= 1
-    return v
+        final -= 1
+    return lista
 
 
 print("\n\n", ordenaLista(escreverLista()))
