@@ -11,7 +11,6 @@ maior = 0
 menor = 1000
 total = 0
 lista = []
-lista2 = []
 
 for i in range(1, 11):
     valorTemp = int(input(f"Qaul o {i}º valor: "))
@@ -24,9 +23,7 @@ for i in range(1, 11):
 
 media = total / 5
 
-for x in range(6):
-    lista2.append(random.choice(lista))
-
+lista2 = random.sample(lista, 5)
 
 print(f"\n\nMedia: {media:.2f}")
 print(f"Total {total}")
