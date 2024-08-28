@@ -5,6 +5,8 @@
 
 # OBS1.: Refaça o exercicio usando lista para armazenar valores digitados pelo usuario.
 # OBS2.: Façao com que o sistema sorteie 6 valores digitados pelo usuario logo após o exibir as mensagens
+
+
 import random
 
 maior = 0
