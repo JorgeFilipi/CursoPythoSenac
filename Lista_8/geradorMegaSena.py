@@ -28,8 +28,9 @@ def acerto():
     jogo = aposta()
     resolta = sortear()
     acert = 0
-    for i in jogo:
-        for x in resolta:
+    for i in resolta:
+        for x in jogo:
+            print(i, x, end=" / ")
             if i == x:
                 acert += 1
     return acert
