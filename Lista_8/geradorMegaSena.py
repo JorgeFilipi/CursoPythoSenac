@@ -26,6 +26,9 @@ def aposta():
                     elif num <= 0:
                         print("0 ou números negativos não são permitidos")
                         num = int(input(f"Digite o {i}º número: "))
+                    elif num in jogo:
+                        print("Este número já foi digitado!")
+                        num = int(input(f"Digite o {i}º número: "))
                     else:
                         jogo.append(num)
                         break
@@ -56,7 +59,7 @@ def ganhador(acert):
     elif acert == 4:
         return "BARABÉNS VOCÊ ACERTOU 4 DEZENAS, VOCÊ GANHOU A QUADRA DA MEGA-SENA!!!"
     else:
-        return "Não foi desta vez, você ganhou!!!"
+        return "Não foi desta vez, você não ganhou!!!"
 
 
 while True:
