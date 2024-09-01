@@ -38,9 +38,9 @@ def aposta():
             print("Valor invalido digite apesnumero inteiros entre 1 e 60!")
 
 
-def gerarjogo():
-    jogo = random.sample(volante(), 6)
-    return sorted(jogo)
+# def gerarjogo():
+#     jogo = random.sample(volante(), 6)
+#     return sorted(jogo)
 
 
 def acerto(jogo, resposta):
@@ -72,7 +72,7 @@ while True:
     if resp1 == "d":
         jogo = aposta()
     elif resp1 == "g":
-        jogo = gerarjogo()
+        jogo = random.sample(volante(), 6)
 
     resposta = sortear()
     pont = acerto(jogo, resposta)
