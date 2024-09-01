@@ -12,7 +12,7 @@ while True:
         maior = num
         print(f"Este é o maior número {maior}")
     elif num == 0:
-        print(f"Você digitou {voltas}")
+        print(f"Você digitou {voltas}, númerosgi")
         print("Fim do programa!")
         break
     else:
