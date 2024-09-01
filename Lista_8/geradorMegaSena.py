@@ -38,11 +38,6 @@ def aposta():
             print("Valor invalido digite apesnumero inteiros entre 1 e 60!")
 
 
-# def gerarjogo():
-#     jogo = random.sample(volante(), 6)
-#     return sorted(jogo)
-
-
 def acerto(jogo, resposta):
     acert = 0
     for i in jogo:
