@@ -1,3 +1,88 @@
 body{
-    background-color: rgb(219, 165, 107);
+    background-color: #800000;
+}
+.navbar-brand img{
+    width: 25vw;
+}
+.navbar-brand{
+    align-items: center;
+}
+main section img{
+    width: 80vw;
+}
+main section{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.produtos img{
+    width: 40vw;
+}
+.produtos{
+    display: flex;
+    flex-direction: column;
+    margin:  1.5rem;
+    border: solid #746e6e;
+    border-radius: 0 0 15px 15px;
+}
+.produtos h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.produtos h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.produtos h5{
+    text-decoration: line-through;
+}
+.produtos h1{
+    font-weight: 800;
+}
+.produtos button{
+    border: none;
+    border-radius: 0 0 15px 15px;
+    background-color: aqua;
+    color: rgb(26, 1, 43);
+    font-size: 22px;
+    height: 60px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+footer img{
+    width: 10vw;
+} 
+
+@media(main-width:786px){
+    .navbar-brand img{
+        width: 12vw;
+    }
+    main section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main section img{
+        width: 40%;
+    }
+    main section article{
+        width: 70%;
+    }
+    .produtos{
+        width: 20vw;
+    }
+    .produtos img{
+        width: 19vw;
+    }
+    footer img{
+        width: 12vw;
+    }
 }
