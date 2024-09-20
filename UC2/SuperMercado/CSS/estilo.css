@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(255, 161, 107);
+  }
+  .navbar-brand img{
+    width: 32vw;
+  }
+  main section img{
+    width: 90vw;
+  }
+  main section{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Produto{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border: solid 1px #44444459;
+    border-radius: 0px 0px 12px 12px;
+    margin: 1.5rem;
+  }
+  .Produto img{
+    width: 45vw;
+  }
+  .Produto h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  .Produto h4{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .Produto h5{
+    text-decoration: line-through;
+  }
+  .Produto h1{
+    font-weight: 800;
+  }
+  .Produto button{
+    border: none;
+    border-radius: 0px 0px 12px 12px;
+    background-color: #1c53b1;
+    color: #fff;
+    font-size: 22px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Produto button svg{
+    margin-right:1rem;
+  }
+  h1{
+    text-align: center;
+  }
+  footer a img{
+    width: 32vw;
+  }
+  
+  @media(min-width:768px){
+    .navbar-brand img{
+      width: 12vw;
+    }
+    main section{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    main section img{
+      width: 40%;
+    }
+    main section article{
+      width: 55%;
+      margin-left: 2rem;
+      text-align: justify;
+    }
+    .Produto{
+      width: 18vw;
+    }
+    .Produto img{
+      width: 17vw;
+    }
+    footer a img{
+      width: 12vw;
+    }
+  }
