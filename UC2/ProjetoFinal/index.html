@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <header>
+    <header id="topo">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a
@@ -37,10 +37,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Origem</a>
+                <a class="nav-link active" aria-current="page" href="#NossaH">Origem</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Produtos</a>
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Formulario.html">Cadastro</a>
               </li>
             </ul>
             <form class="d-flex" role="Pesquisar">
@@ -58,7 +61,7 @@
         </div>
       </nav>
 
-      <div id="carouselExampleIndicators" class="carousel slide">
+      <div id="carouselExampleIndicators" class="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -95,7 +98,7 @@
     </header>
     <main>
       <section>
-        <article>
+        <article id="NossaH">
           <h1>Nossa hitória</h1>
           <img src="./img/logo2.jpeg" alt="Logo vinho" />
           <h2>
@@ -134,7 +137,8 @@
           </h4>
           <h2>Vinícola dos Almeida Dias lugar de gente feliz</h2>
         </article>
-        <section>
+        <section id="produtos">        
+
           <div class="produtos">
             <img
               src="https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/29319-01.png"
@@ -312,9 +316,9 @@
         </a>
     
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Origem</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Produtos</a></li>
+          <li class="nav-item"><a href="#topo" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#NossaH" class="nav-link px-2 text-body-secondary">Origem</a></li>
+          <li class="nav-item"><a href="#produtos" class="nav-link px-2 text-body-secondary">Produtos</a></li>
         </ul>
       </footer>
     </div>
