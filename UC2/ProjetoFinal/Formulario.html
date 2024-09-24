@@ -49,20 +49,11 @@
             text-align: center;
         }
     </style>
-    <script>
-        function redirecionar() {
-            window.location.href = "index.html";
-        }
-    </script>
 </head>
 <body>
     <div class="container">
         <h2>CADASTRO</h2>
-        <form action="/submit" method="post">
-            <div class="form-group">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
-            </div>
+        <form action="./index.html" method="post">
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
@@ -72,19 +63,23 @@
                 <input type="password" id="senha" name="senha">
             </div>
             <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="form-group">
                 <label for="nome">Endereço:</label>
                 <input type="text" id="nome" name="nome" placeholder="Rua, Nº, Bairro">
             </div>
             <div class="form-group">
-                <label for="nome">Nome:</label>
+                <label for="nome">Localidade:</label>
                 <input type="text" id="nome" name="nome" placeholder="Cidade, Estado">
             </div>
             <div class="form-group">
-                <label for="nome">Nome:</label>
+                <label for="nome">Complemento:</label>
                 <input type="text" id="nome" name="nome" placeholder="Casa, Apto, Bloco">
             </div>
             <div class="form-group">
-                <button type="submit" onclick="redirecionar()">Cadastrar</button>
+                 <input type="submit" value="Cadastrar">
             </div>
         </form>
     </div>

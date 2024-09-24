@@ -1,3 +1,10 @@
 body{
-    background-color: rgb(181, 240, 240);
+    background-color: #dcdcdc;
+}
+.col img{
+    width: 90wv;
+}
+
+@media screen {
+    
 }
