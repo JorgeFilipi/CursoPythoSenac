@@ -1,10 +1,12 @@
-body{
+body {
     background-color: #dcdcdc;
-}
-.col img{
-    width: 90wv;
-}
-
-@media screen {
-    
-}
+  }
+  .col img{
+    width: 90vw;
+  }
+  
+  @media(min-width:1024px) {
+    .col img {
+      width: 100%;
+    }
+  }
