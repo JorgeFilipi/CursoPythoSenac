@@ -6,13 +6,13 @@ maior = 0
 voltas = 1
 
 while True:
-    num = int(input("Digite um número para comparalção: "))
+    num = int(input("Digite um número para comparação: "))
     voltas += 1
     if maior < num:
         maior = num
         print(f"Este é o maior número {maior}")
     elif num == 0:
-        print(f"Você digitou {voltas}, númerosgi")
+        print(f"Você digitou {voltas}, números")
         print("Fim do programa!")
         break
     else:
