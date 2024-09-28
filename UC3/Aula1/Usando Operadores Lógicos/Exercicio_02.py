@@ -8,9 +8,9 @@
 # permissao = input("Você tem permissão dos pais? (sim/não): ")
 
 idade = int(input("Digite sua idade: "))
-permissao = str(input("Você tem permissão dos pais? (sim/não): ").upper())
 
-if idade > 17:
+if idade >= 18:
+    permissao = input("Você tem permissão dos pais? (sim/não): ").upper()
     if permissao == "S":
         print("Você pode participar da viagem!")
     else:
