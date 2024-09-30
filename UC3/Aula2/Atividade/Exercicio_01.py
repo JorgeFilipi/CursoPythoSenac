@@ -6,12 +6,16 @@
 # denotado por ( n! ), é o produto de todos os números positivos menores ou iguais a ( n ).
 
 
-def fatorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * fatorial(n-1)
+def fatorial(fat):
+    fat = 1
+    if num == 0 or num == 1:
+        return  fat
+    if num >= 2:
+        for i in range(1, num + 1):
+            fat = fat * i
+        return fat
 
 
-numero = int(input("Digite um número: "))
-print(f"O fatorial de {numero} é {fatorial(numero)}.")
+
+num = int(input("Digite um número: "))
+print(f"O fatorial de {num} é {fatorial(num)}.")

@@ -7,17 +7,16 @@
 
 
 def encontrarPrimos(fim):
-    primos = []
-    for num in range(fim + 1):
-        if num > 0:
-            for i in range(2, int(num ** 0.5) + 1):
-                if (num % i) == 0:
-                    break
-            else:
-                primos.append(num)
-    return primos
+    print(f"Números primos até {fim}")
+    for i in range(1, fim + 1):
+        cont = 0
+        for x in range(1, fim + 1):
+            if i % x == 0:
+                cont += 1
+        if cont < 3:
+            print(i)
 
 
 fim = int(input("Digita um número: "))
-print(f"Números primos até {fim}: {encontrarPrimos(fim)}")
+encontrarPrimos(fim)
 
