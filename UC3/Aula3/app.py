@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     if request.method == "POST":
         nome = request.form.get("nome").title()
-        mensagem = f"Olá {nome}!\nMensagem: {mensagens.obterMensagemAleatoria ()}"
+        mensagem = f"\nOlá {nome}! Mensagem: {mensagens.obterMensagemAleatoria ()}"
         return render_template("index.html", texto=mensagem)
     return render_template("index.html")
 
