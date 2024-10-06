@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojas de bike</title>
+    <link  rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>Lojas de bike</h1>
+    <form action="/adicionar" method="post">
+        <input type="text" name="bikes" placeholder="Nova bike." required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul>
+        {% for bike in bikes %}
+        <li>
+
+            {% if bike.status %}
+               <del>{{ loop.index }} - {{ bike.marca }}</del>
+            {% else %}
+               {{ loop.index }} - {{ bike.marca }}
+            {% endif %}
+
+            {% if bike.status %}
+               <a class="remover" href="{{ url_for('remover', bike_id=loop.index0) }}">[Remover]</a>
+            {% else %}
+               <a href="{{ url_for('completar', bike_id=loop.index0) }}">[Completar]</a>
+            {% endif %}
+
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
