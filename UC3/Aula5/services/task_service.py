@@ -9,8 +9,9 @@ class TaskService:
         if not conteudo:
             raise  ValueError("A terefa não pode ser vazia")
 
-        nova_tarefa = Task(conteudo, False)
+        nova_tarefa = Task(conteudo)
         self.tarefas.append(nova_tarefa)
+
 
     def listar_tarefas(self):
         return self.tarefas
@@ -18,5 +19,5 @@ class TaskService:
     def completar_tarefa(self, tarefa_id):
         self.tarefas[tarefa_id].completa = True
 
-    def remover_tarefas(self, tarefa_id):
+    def remover_tarefa(self, tarefa_id):
         self.tarefas.pop(tarefa_id)

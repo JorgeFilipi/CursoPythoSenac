@@ -1,5 +1,5 @@
 class Task:
-    def __init__(self, conteudo, completa):
+    def __init__(self, conteudo, completa=False):
         self.conteudo  = conteudo
         self.completa = completa
 
