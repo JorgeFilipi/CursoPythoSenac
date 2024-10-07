@@ -1,32 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #CCFFFF
-    padding: 20px;
+    margin-right: 20px;
 }
+
 h1 {
     color: #333;
 }
+
 form {
     margin-bottom: 20px;
 }
+
 ul {
     list-style-type: none;
-    pedding-left: 0;
+    padding: 0;
 }
+
 li {
-    margin: 5px 0;
-}
-del {
-    color: gray;
-}
-a {
-    margin-left 10px
-    color: blue;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underLine;
-}
-.remover {
-    color: red;
+    margin-bottom: 10px;
 }
