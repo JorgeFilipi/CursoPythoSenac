@@ -1,4 +1,4 @@
-Curso de Python - SENAC
+#Curso de Python - SENAC
 Este repositório contém o material do Curso de Python oferecido pelo SENAC, dividido em três Unidades Curriculares (UCs). O conteúdo visa apresentar o desenvolvimento de soluções usando lógica de programação, criação de interfaces web com HTML/CSS e desenvolvimento de aplicações back-end utilizando Python e persistência de dados em banco de dados.
 
 Objetivo
