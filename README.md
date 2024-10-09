@@ -30,7 +30,7 @@ Aqui, o foco é no desenvolvimento de interfaces de usuário utilizando:
 
 Além disso, são introduzidos conceitos básicos de design responsivo.
 
-Nesta cadeira do curso criamos um menu online para ter acesso aos projetos crando em sala de aula clik no link para ver a pasina: <a href="https://jorgefilipi.github.io/CursoPythoSenac/"><button>CLIK AQUI</button></a>
+Nesta unidade do curso, desenvolvemos um menu online que permite acessar os projetos criados durante as aula. Clique no link para ver a página: <a href="https://jorgefilipi.github.io/CursoPythoSenac/"><button>CLIK AQUI</button></a>
 
 ### <a href="https://github.com/JorgeFilipi/CursoPythoSenac/tree/master/UC3"> 3. Programação Back-End com Python e Banco de Dados </a>
 
