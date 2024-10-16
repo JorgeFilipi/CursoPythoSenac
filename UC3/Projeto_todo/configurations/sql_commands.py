@@ -7,7 +7,7 @@ def create_table_tasks(app, db):
         id SERIAL PRIMARY KEY,
         conteudo VARCHAR(200) NOT NULL,
         completa BOOLEAN DEFAULT FALSE,
-        prioridade VARCHAR(50) NOT NULL DEFAULT 'Média'
+        prioridade VARCHAR(50) NOT NULL
     );"""
 
     with app.app_context():

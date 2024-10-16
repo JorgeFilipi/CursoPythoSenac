@@ -12,7 +12,7 @@ def index():
 @task_blueprint.route("/adcionar", methods=["POST"])
 def adicionar():
     conteudo = request.form.get("tarefa")
-    prioridade = request.form.get("Prioridade", "Média")
+    prioridade = request.form.get("prioridade", "Média")
 
     if prioridade == '':
         prioridade = 'Média'

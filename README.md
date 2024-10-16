@@ -1,14 +1,6 @@
 
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="C:\Projetos_Python\SENAC\styles\senac.png" alt="SENAC" width="300" height="200">
-  <img src="C:\Projetos_Python\SENAC\styles\python.png" alt="PYTHON" width="300" height="200">
-</div>
-
-
-
 # Curso de Python - SENAC
-
 
 
 Este repositório contém o material do Curso de Python oferecido pelo SENAC, dividido em três Unidades Curriculares (UCs). O conteúdo visa apresentar o desenvolvimento de soluções usando lógica de programação, criação de interfaces web com HTML/CSS e desenvolvimento de aplicações back-end utilizando Python e persistência de dados em banco de dados.
